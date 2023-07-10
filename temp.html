@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  #convert {
+  background-color: #bba768;
+}
+#convert:hover {
+  background-color: #43c03c;
+}
+h1 {
+  font-family: sans-serif;
+  color: #064371;
+}
+input {
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 2em;
+  color: #3a7694;
+  font-family: cursive, sans-serif;
+}
+::-webkit-input-placeholder {
+   color: #ccc;
+}
+:-moz-placeholder { 
+   color: #ccc;  
+}
+::-moz-placeholder {  
+   color: #ccc;  
+}
+:-ms-input-placeholder {  
+   color: #ccc;  
+}
+button {
+  padding: 10px;
+  font-size: 1.2em;
+  color: #545454;
+}
+h1{
+  margin-left: 37%;
+}
+.div1{
+  margin-left: 37%;
+}
+#convert{
+  margin-top: 30px;
+}
+#clear{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+body{
+  background-color: lavender;
+}
+
+</style>
+
+</head>
+<body>
+
+    <h1>Temperature Converter</h1>
+
+<div class="div1">
+
+    <input type="text" id="fahrenheit" placeholder="Fahrenheit" name="f" value="" />
+
+    <input type="text" id="celsius" placeholder="Celsius" name="c" value="" />
+
+<button id="convert">Convert!</button>
+<button id="clear">Reset</button>
+
+</div>
+
+<script src="temp.js"></script>
+
+</body>
+</html>
